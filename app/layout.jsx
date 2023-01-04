@@ -12,7 +12,7 @@ export default function RootLayout({children}) {
                 <title>Shukur Huseynli</title>
             </head>
             <body className='p-10 h-screen bg-black-darky' >
-                <div className='h-full bg-vscode rounded-2xl'>
+                <div className='h-full bg-vscode rounded-2xl border-2 border-line'>
                     {children}
                 </div>
             </body>
